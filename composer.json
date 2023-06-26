@@ -1,0 +1,23 @@
+{
+  "name": "jolicht/monolog-cloudwatch-handler",
+  "description": "Monolog handler for aws cloudwatch",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Jolicht\\MonologCloudwatchHandler\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Johannes Lichtenwallner",
+      "email": "johannes@lichtenwallner.at"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=8.2",
+    "monolog/monolog": "^3.3",
+    "aws/aws-sdk-php": "^3.2"
+  }
+}
